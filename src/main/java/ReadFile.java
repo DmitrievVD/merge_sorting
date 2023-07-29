@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ReadFile {
-    public static ArrayList<Integer> readFile(File file){
+    public static ArrayList<Integer> read(File file){
         ArrayList<Integer> arrInt = new ArrayList<>();
         try (FileReader fileReader = new FileReader(file)){
             Scanner sc = new Scanner(fileReader);
