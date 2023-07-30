@@ -11,6 +11,7 @@ public class WriteFile {
                 if (i == list.size() -1) wf.write(list.get(i).toString());
                 else wf.write(String.format(list.get(i) + "%n"));
             }
+            System.out.println("Слияние завершено!!!");
         } catch (IOException e){
             System.err.println("Error" + e);
         }
