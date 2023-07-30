@@ -23,7 +23,18 @@ public class Main {
 
 
         ArrayList<String> st1 = ReadFile.readStr(new File("st1.txt"));
-
         System.out.println(st1);
+
+        ArrayList<String> st2 = ReadFile.readStr(new File("st2.txt"));
+        System.out.println(st2);
+
+        ArrayList<String> out = MergeSortString.mergeSort(st1,st2);
+        Collections.reverse(out);
+        System.out.println(out);
+
+
+
+
+
     }
 }
